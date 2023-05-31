@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="Utf-8">
+        <title> Weather App</title>
+        <link rel="stylesheet" type="text/css" href="./css/style.css" />
+        <link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+                integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+                crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+        <section class="Navigation">
+
+                <button class="nav-btn open-btn">
+                        <i class="fa fa-bars" aria-hidden="true" cursor="pointer"></i>
+                </button>
+                <div class="nav">
+
+                        <div class="logo">
+                                <h2>Weather Forcastor</h2>
+                        </div>
+                        <div class="Box">
+                                <button class="nav-btn close-btn">
+                                        <i class="fa fa-times" aria-hidden="true" cursor="pointer"></i>
+                                </button>
+                                <ul class="list">
+                                        <li><a href="#">Product</a></li>
+                                        <li><a href="#">Services</a></li>
+                                        <li><a href="#">ContactUs</a></li>
+                                        <li><a href="#">Address</a></li>
+
+
+                                </ul>
+                        </div>
+
+
+        </section>
+
+        <section class="main">
+                <img class="cloud" src="./Image/Cloud.png" /> 
+                <div class="weather-response"></div>
+
+
+                <form class="" action="/" method="post">
+                        <label for="cityInput">
+                                <h1> Weather in your City</h1>
+                        </label><br>
+                        <input type="text" class="fname" id="fname" name="Cityname" placeholder=" CITY NAME">
+                        <button class="go"> Go</button>
+                </form>
+
+
+        </section>
+
+        <section class="weather">
+                <img class="photo" src="./Image/weather.jpg" />
+                <div id="weatherResponse"></div>
+        </section>
+        <section class="Detail">
+                <p>Accurate 12 Day Weather Forecasts for thousands of places around the World. We provide detailed
+                        Weather
+                        Forecasts over a 12 day period updated four times a day.
+                        Our interactive weather maps can be customized to show forecasts of temperature, weather and
+                        wind.
+                        You can also overlay pressure and live weather observations on maps of any country.
+                        Select our weather today forecast pages to get 3 hourly detail and live weather reports.
+                        Browse our weather photo albums showing a great selection of weather extremes
+                        from around the world including hurricanes, floods, storms, tornadoes and major snow events.</p>
+        </section>
+
+
+        <footer>
+                <h4>COPYRIGHT © 2022 Ruchul - ALL RIGHTS RESERVED.</h4>
+        </footer>
+
+        <script type="text/javascript" src="./Js/script.js"></script>
+        <script type="text/javascript" src="../index.js"></script> 
+
+</body>
+
+</html>

@@ -1,0 +1,292 @@
+body {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        display: flex;
+        flex-direction: column;
+        background-color: aliceblue;
+        justify-content: center;
+        text-align: center;
+        background-image: url("/Image/Blue.jpg");
+
+}
+
+
+/* Footer */
+footer {
+        background-color: #06283D;
+        margin-top: 100px;
+        text-align: center;
+        color: #fff;
+}
+
+/* Main */
+h1 {
+        font-size: 30px;
+        padding-left: 40px;
+        font-family: 'Roboto', sans-serif;
+        ;
+}
+
+h2 {
+        color: white;
+        padding: 5% 2% 1% 1%;
+}
+
+.go {
+        width: 30%;
+        height: 40px;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+        background-color: aqua;
+}
+
+.Detail {
+        margin: 2%;
+        padding: 2% 5%;
+        text-align: center;
+}
+
+.weather {
+        margin: 5%;
+}
+
+.photo {
+        width: 100%;
+        height: 400px;
+}
+footer{
+        padding:2%;
+}
+
+@media screen and (max-width:2500px) and (min-width:1028px) {
+        .nav {
+                        text-align: center;
+                        position: fixed;
+                        width: 100%;
+                        height: 6rem;
+                        display: -moz-inline-grid;
+                        background-color: #06283D;
+                }
+        
+                .nav-btn {
+                        display: none;
+                }
+        
+                .list li {
+        
+                        list-style-type: none;
+                        padding: 4% 1% 2% 1%;
+                        display: inline-block;
+                        color: white;
+                }
+        
+                .list a {
+                        color: white;
+                }
+        
+                .Box {
+                        width: 50%;
+                        height: 6rem;
+                        margin-left: 28%;
+        
+                }
+        
+                .logo {
+                        color: aliceblue;
+                        width: 20%;
+                        height: 6rem;
+                        padding-left: 25px;
+                        background-color: black;
+                }
+        
+
+        .main {
+                margin: 15% 2% 15% 20%;
+                padding: 2% 2%;
+        }
+
+        .cloud {
+                width: 500px;
+                height: 350px;
+                margin-left: 260px;
+
+
+        }
+
+        .fname {
+                padding-left: 30px;
+                width: 40%;
+                height: 40px;
+                border-top-left-radius: 25px;
+                border-bottom-left-radius: 25px;
+        }
+}
+@media screen and (min-width:901px) and (max-width:1028px) {
+        .nav {
+                        text-align: center;
+                        position: fixed;
+                        width: 100%;
+                        height: 6rem;
+                        display: -moz-inline-grid;
+                        background-color: #06283D;
+                }
+        
+                .nav-btn {
+                        display: none;
+                }
+        
+                .list li {
+        
+                        list-style-type: none;
+                        padding: 8% 1% 2% 1%;
+                        display: inline-block;
+                        color: white;
+                }
+        
+                .list a {
+                        color: white;
+                        padding-left: 20px  ;
+                }
+        
+                .Box {
+                        width: 50%;
+                        height: 6rem;
+                        margin-left: 28%;
+        
+                }
+        
+                .logo {
+                        color: aliceblue;
+                        width: 20%;
+                        height: 6rem;
+                        padding-left: 25px;
+                        background-color: black;
+                }
+        
+        
+                .main {
+                        margin: 15% 20% 10% 25%;
+                        
+                }
+        
+                .cloud {
+                        width: 500px;
+                        height: 350px;
+                        margin-top: 25px;
+                        
+        
+        
+                }
+        
+                .fname {
+                        padding-left: 30px;
+                        width: 50%;
+                        height: 40px;
+                        border-top-left-radius: 25px;
+                        border-bottom-left-radius: 25px;
+                }
+        }
+
+@media screen and (min-width:001px) and (max-width:900px) {
+        .Navigation {
+                background-color: #06283D;
+                height: 3.5rem;
+                display: block;
+        }
+          .nav {
+                position: fixed;
+                top: 0;
+                left: 0;
+                height: 100vh;
+                transform: translate(-100%);
+                transition: transform 0.3s ease-in-out;
+                width: 60%;
+                max-width: 480px;
+                min-width: 320px;
+                background-color: #06283D;
+        }
+        .visible {
+                transform: translate(0);
+        }
+        .nav-btn {
+                border: none;
+                background-color: transparent;
+                font-size: 20px;
+                cursor: pointer;
+        }
+
+        .open-btn {
+                position: fixed;
+                top: 12px;
+                left: 12px;
+                color: #fff;
+        }
+
+        .close-btn {
+                opacity: 0.3px;
+                position: absolute;
+                top: 40px;
+                right: 30px;
+                padding: 10px;
+                color: #fff !important;
+               
+
+        }
+        h2{
+             color:#fff !important ;
+        }
+        .container {
+                float: left;
+                padding-left: -5px;
+                color: #fff;
+        }
+
+
+      
+
+       
+
+        .list {
+                display: block;
+                list-style-type: none;
+                text-align-last: left;
+                margin-left: 10px;
+        }
+
+
+        .list li a {
+                font-size: 24px;
+                color: White;
+                text-transform: uppercase;
+                text-decoration: solid;
+                
+        }
+        .logo{
+               
+                float: center ;
+                margin: 20px;
+                background-color: none;
+        }
+
+        .main {
+                margin: 5% 5% 10% 5%;
+                padding: 10px;
+                text-align: center;
+
+        }
+
+        .cloud {
+                width: 300px;
+                height: 250px;
+                padding-left: 40px;
+               
+                z-index: -1;
+        }
+
+        .fname {
+                padding-left: 30px;
+                width: 40%;
+                height: 40px;
+                border-top-left-radius: 25px;
+                border-bottom-left-radius: 25px;
+        }
+}
